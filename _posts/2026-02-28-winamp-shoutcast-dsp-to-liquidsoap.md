@@ -1,6 +1,6 @@
 ---
 title: "Transitioning from Winamp + Shoutcast DSP to Liquidsoap"
-date: 2026-02-28 15:00:00 -0800
+date: 2026-02-27 15:00:00 -0800
 categories: [kaad-one]
 tags: [winamp, shoutcast, liquidsoap, migration, streaming]
 ---
