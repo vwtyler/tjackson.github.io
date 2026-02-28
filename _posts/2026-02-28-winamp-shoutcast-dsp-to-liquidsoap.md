@@ -45,7 +45,7 @@ The initial sequence was:
 3. Build a minimal Liquidsoap config
 4. Validate on MyRadioStream before changing station-facing output
 
-### 1) Confirm the ALSA device
+### Confirm the ALSA device
 
 I started by verifying device names and capture paths on Ubuntu.
 
@@ -72,7 +72,7 @@ arecord -D hw:M2,0 -f S16_LE -r 48000 -c 2 -d 5 /tmp/motu-test.wav
 aplay /tmp/motu-test.wav
 ```
 
-### 2) Create a persistent ALSA alias: `motu_in`
+### Create a persistent ALSA alias: `motu_in`
 
 Rather than hardcoding card indexes (which can shift on reboot), I added a named ALSA PCM in `/etc/asound.conf`:
 
@@ -103,11 +103,11 @@ arecord -D motu_in -f S16_LE -r 48000 -c 2 -d 5 /tmp/motu-alias-test.wav
 aplay /tmp/motu-alias-test.wav
 ```
 
-### 3) Build the first Liquidsoap config
+### Build the first Liquidsoap config
 
 I started with a minimal config focused on capture stability and predictable output. Since free MyRadioStream accounts are limited to Shoutcast, the first external test used `output.shoutcast`.
 
-`/etc/liquidsoap/kaad-test.liq`
+Create `/etc/liquidsoap/kaad-test.liq`:
 
 ```liquidsoap
 set("log.level", 3)
@@ -142,7 +142,7 @@ Then run it interactively first:
 liquidsoap /etc/liquidsoap/kaad-test.liq
 ```
 
-### 4) Push to MyRadioStream as a safe external test
+### Push to MyRadioStream as a safe external test
 
 Before any production cutover, I pointed output to a free MyRadioStream test endpoint. That gave me a safe way to verify:
 
