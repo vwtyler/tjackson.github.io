@@ -29,16 +29,18 @@ github:
   username: vwtyler # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: vwtyler # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Tyler Jackson
-  email: # change to your email address
+  email: vwtyler@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/vwtyler # change to your GitHub homepage
+    - https://twitter.com/vwtyler
+    - https://bsky.app/profile/vwtyler.bsky.social
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
