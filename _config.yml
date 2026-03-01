@@ -16,7 +16,7 @@ timezone:
 
 title: tyler dev # the main title
 
-tagline: broadcasting and homelab noties # it will display as the subtitle
+tagline: broadcasting and homelab notes # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Notes on kaad-one implementation and homeserver engineering.
