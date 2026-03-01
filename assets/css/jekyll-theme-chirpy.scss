@@ -1,0 +1,27 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+.post-content h1 {
+  font-size: 1.95rem;
+}
+
+.post-content h2 {
+  font-size: 1.55rem;
+}
+
+.post-content h3 {
+  font-size: 1.3rem;
+}
+
+.post-content h4 {
+  font-size: 1.12rem;
+}
