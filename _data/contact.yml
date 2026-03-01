@@ -9,6 +9,10 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: liberapay
+  icon: "fas fa-circle-dollar-to-slot"
+  url: "https://liberapay.com/vwtyler/donate"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
