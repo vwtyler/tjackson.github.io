@@ -16,4 +16,6 @@ If this work saved you time or helped you avoid an outage, you can support it he
 <script src="https://liberapay.com/vwtyler/widgets/button.js"></script>
 <noscript><a href="https://liberapay.com/vwtyler/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
+<br>
+
 Elsewhere: [GitHub](https://github.com/vwtyler) · [X/Twitter](https://twitter.com/vwtyler) · [Bluesky](https://bsky.app/profile/vwtyler.bsky.social) · [KAAD-LP](https://kaad-lp.org)
