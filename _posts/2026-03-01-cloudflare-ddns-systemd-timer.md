@@ -1,5 +1,5 @@
 ---
-title: "Cloudflare Dynamic DNS with systemd Timer and .env Secrets"
+title: "Cloudflare Dynamic DNS with systemd Timer"
 date: 2026-03-01 12:30:00 -0800
 categories: [homelab]
 tags: [cloudflare, dns, ddns, systemd, linux, automation, security]
