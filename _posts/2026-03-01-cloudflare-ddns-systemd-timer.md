@@ -1,6 +1,7 @@
 ---
 title: "Cloudflare Dynamic DNS with systemd Timer"
 date: 2026-03-01 12:30:00 -0800
+description: "A practical Cloudflare DDNS setup using a Bash script, systemd service, and daily timer with env-based secrets."
 categories: [homelab]
 tags: [cloudflare, dns, ddns, systemd, linux, automation, security]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Replacing Shoutcast DSP with a Dedicated Liquidsoap Broadcast Server"
 date: 2026-02-27 15:00:00 -0800
+description: "How I migrated KAAD-LP streaming from a fragile desktop workflow to a dedicated Linux Liquidsoap host."
 categories: [kaad-one]
 tags: [winamp, shoutcast, liquidsoap, migration, streaming]
 ---
