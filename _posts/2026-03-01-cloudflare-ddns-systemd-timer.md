@@ -181,6 +181,8 @@ Persistent=true
 WantedBy=timers.target
 ```
 
+One useful `systemd` detail: this timer runs `cloudflare-ddns.service` because the base name matches. If you ever want a timer to trigger a differently named service, set `Unit=your-service.service` in the `[Timer]` block.
+
 Enable and start:
 
 ```bash
